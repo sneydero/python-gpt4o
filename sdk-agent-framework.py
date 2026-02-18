@@ -62,7 +62,7 @@ def send_email(
         print("\nTo:", to)
         print("Subject:", subject)
         print(body, "\n")
-
+        
 
 if __name__ == "__main__":
     asyncio.run(main())
